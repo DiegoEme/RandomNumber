@@ -1,0 +1,20 @@
+<html>
+  <script>
+    function getRandom() {
+      return Math.floor(Math.random() * 100);
+    }
+
+    var randomNumber = getRandom();
+    var numeros = [];
+
+    for (var i = 0; randomNumber !== 50; i++) {
+      randomNumber = getRandom();
+      numeros.push(randomNumber);
+    }
+
+    console.log(numeros);
+    console.log(
+      "La cantidad de intentos antes de llegar al número 50 fue: " + i
+    );
+  </script>
+</html>
